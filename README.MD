@@ -1,9 +1,9 @@
-# Milestone 2
+# Part 1
 
 It's for LLVM 17.
 
 ## Contribution
-**Part 1: Biqing Su(bsu5)**
+Biqing Su(bsu5)
 
 ## Compile & Run
 1. Make the script executable by running `chmod +x setup_and_run.sh` in the terminal.
