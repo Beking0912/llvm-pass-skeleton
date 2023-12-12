@@ -36,8 +36,8 @@ int main() {
 ```
 main: func_0x147e4af98
 Branch Dictionary:
-br_0: fileX.c, 14, 15
-br_1: fileX.c, 14, 18
+br_0: test1.c, 14, 15
+br_1: test1.c, 14, 18
 Value of a is 10
 br_0
 br_0
@@ -53,8 +53,8 @@ $ cmake ..
 $ make
 $ cd ..
 
-$ cc -c rtlib.c
-$ clang -fpass-plugin='build/skeleton/SkeletonPass.dylib' -c fileX.c -g
-$ cc fileX.o rtlib.o
+$ cc -c logPrint.c
+$ clang -fpass-plugin='build/skeleton/SkeletonPass.dylib' -c test1.c -g
+$ cc test1.o logPrint.o
 $ ./a.out
 ```
